@@ -10,6 +10,7 @@ import 'package:web_portfolio/pages/home/components/footer.dart';
 import 'package:web_portfolio/pages/home/components/header.dart';
 import 'package:web_portfolio/pages/home/components/other_app_section.dart';
 import 'package:web_portfolio/pages/home/components/skill_section.dart';
+import 'package:web_portfolio/pages/home/components/Frameworks_section.dart';
 import 'package:web_portfolio/utils/constants.dart';
 import 'package:web_portfolio/utils/globals.dart';
 import 'package:web_portfolio/utils/scroll_helper.dart';
@@ -70,6 +71,13 @@ class Home extends StatelessWidget {
         ),
       ),
       body: Container(
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          colors: [kBackgroundColor, Colors.black],
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+        ),
+      ),
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -78,41 +86,21 @@ class Home extends StatelessWidget {
                 child: Header(),
               ),
               Carousel(key:homeKey),
-              // SizedBox(
-              //   height: 20.0,
-              // ),
-              
               AppShowcaseSection(key:projectKey),
               OtherAppSection(),
-              // IosAppAd(),
-              SizedBox(
-                height: 70.0,
-              ),
-              // WebsiteAd(),
-              // Padding(
-              //   padding: const EdgeInsets.symmetric(vertical: 28.0),
-              //   child: PortfolioStats(),
-              // ),
               SizedBox(
                 height: 50.0,
-              ),
-              
+              ), 
               ExperienceSection(key:experienceKey),
               EducationSection(),
-              // EducationSection(),
               SizedBox(
                 height: 50.0,
               ),
-              SkillSection(key:skillKey),
+              Frameworks_section(),
               SizedBox(
                 height: 50.0,
               ),
               CvSection(),
-              // Sponsors(),
-              // SizedBox(
-              //   height: 50.0,
-              // ),
-              // TestimonialWidget(),
               Footer(key:contactKey),
             ],
           ),

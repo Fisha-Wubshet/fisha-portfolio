@@ -109,12 +109,13 @@ List<CarouselItemModel> carouselItems = List.generate(
         ],
       ),
     ),
-   image: SizedBox(
-      height: 250,
-      child: Image.asset(
-        "assets/fisho.png",
-        fit: BoxFit.contain,
-      ),
-    ), 
+   image: Container(),
+  //  SizedBox(
+  //     height: 250,
+  //     child: Image.asset(
+  //       "assets/fisho.png",
+  //       fit: BoxFit.contain,
+  //     ),
+  //   ), 
   ),
 );
