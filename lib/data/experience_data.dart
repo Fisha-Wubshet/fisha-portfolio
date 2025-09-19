@@ -10,7 +10,7 @@ final List<Experience> experienceList = [
   ),
   Experience(
     description:
-        "Developed Flutter apps for a complex B2B e-commerce and on-demand logistics platform, connecting multiple stakeholders in real time. Applied effective state management, integrated real-time features, offline capabilities, mapping services, and enhanced user experience through interactive visuals and smart scanning functionalities.",
+        "Developed apps for a complex B2B e-commerce and on-demand logistics platform, connecting multiple stakeholders in real time. Applied effective state management, integrated real-time features, offline capabilities, mapping services, and enhanced user experience through interactive visuals and smart scanning functionalities.",
     company: "Go Tech PLC",
     role:'Senior Mobile Developer',
     period: "09/2019 - 08/2021",

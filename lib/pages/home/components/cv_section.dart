@@ -11,13 +11,13 @@ final List<DevelopmentProcesses> developmentProcesses = [
     title: "DESIGN",
     imagePath: "assets/design.png",
     subtitle:
-        "I design intuitive, responsive, and visually polished interfaces using Flutter, focusing on smooth user experiences across platforms. I apply clean architecture principles and scalable project structures to ensure maintainability and efficiency.",
+        "I design intuitive, responsive, and visually polished interfaces using Flutter and native technologies, focusing on smooth user experiences across platforms. I apply clean architecture principles and scalable project structures to ensure maintainability and efficiency.",
   ),
   DevelopmentProcesses(
     title: "Development",
     imagePath: "assets/develop.png",
     subtitle:
-        "I develop robust cross-platform applications using Flutter and Dart, integrating REST APIs, Firebase, and local storage solutions. I implement effective state management (Provider, Bloc, Riverpod) and follow best practices for performance, testing, and code quality.",
+        "I develop robust cross-platform and iOS native applications, integrating REST APIs, Firebase, and local storage solutions. I implement effective state management (Provider, Bloc, Riverpod, and SwiftUI’s state management tools) and follow best practices for performance, testing, and code quality.",
   ),
   DevelopmentProcesses(
     title: "Deployment & Maintenance",
@@ -63,29 +63,29 @@ class CvSection extends StatelessWidget {
                     fontSize: 18.0,
                   ),
                 ),
-                GestureDetector(
-                  onTap: () {
-                     final anchor = web.HTMLAnchorElement()
-          ..href = 'Fisha_Resume.pdf'
-          ..download = 'Fisha_Resume.pdf'
-          ..style.display = 'none';
+        //         GestureDetector(
+        //           onTap: () {
+        //              final anchor = web.HTMLAnchorElement()
+        //   ..href = 'Fisha_Resume.pdf'
+        //   ..download = 'Fisha_Resume.pdf'
+        //   ..style.display = 'none';
 
-        web.document.body!.append(anchor);
-        anchor.click();
-        anchor.remove();
-                  },
-                  child: MouseRegion(
-                    cursor: SystemMouseCursors.click,
-                    child: Text(
-                      "DOWNLOAD CV",
-                      style: GoogleFonts.oswald(
-                        color: kPrimaryColor,
-                        fontWeight: FontWeight.w900,
-                        fontSize: 16.0,
-                      ),
-                    ),
-                  ),
-                ),
+        // web.document.body!.append(anchor);
+        // anchor.click();
+        // anchor.remove();
+        //           },
+        //           child: MouseRegion(
+        //             cursor: SystemMouseCursors.click,
+        //             child: Text(
+        //               "DOWNLOAD CV",
+        //               style: GoogleFonts.oswald(
+        //                 color: kPrimaryColor,
+        //                 fontWeight: FontWeight.w900,
+        //                 fontSize: 16.0,
+        //               ),
+        //             ),
+        //           ),
+        //         ),
               ],
             ),
             SizedBox(

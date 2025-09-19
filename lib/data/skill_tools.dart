@@ -3,6 +3,8 @@ import 'package:web_portfolio/models/tools.dart';
 final List<Tool> tools = [
   Tool(name: 'Dart', iconPath: 'assets/tools/Dart_logo.png'),
   Tool(name: 'Flutter', iconPath: 'assets/tools/flutter_logo.png'),
+  Tool(name: 'SwiftUI', iconPath: 'assets/tools/swiftUi_logo.png'),
+  Tool(name: 'Spring Boot', iconPath: 'assets/tools/spring_boot.png'),
   Tool(name: 'Firebase', iconPath: 'assets/tools/firebase_logo.png'),
   Tool(name: 'FlutterFlow', iconPath: 'assets/tools/flutterflow_logo.png'),
   Tool(name: 'Figma', iconPath: 'assets/tools/figma_logo.png'),

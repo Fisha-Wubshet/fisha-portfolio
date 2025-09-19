@@ -18,7 +18,7 @@ final List<App> otherApplist = [
   ),
  App(
     title: 'Minale',
-    subtitle: 'A B2B e-commerce platform that connects suppliers and retailers. Minale enables anyone to create their own online store and sell products to customers.',
+    subtitle: 'A B2C e-commerce platform that connects suppliers and retailers. Minale enables anyone to create their own online store and sell products to customers.',
     description: '',
     imagePath: 'assets/minale_mockup.png',
     link:''

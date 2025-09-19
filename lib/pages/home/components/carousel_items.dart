@@ -39,7 +39,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 10.0,
           ),
           Text(
-            "Senior Mobile Developer | Flutter Expert, based in Addis Ababa",
+            "Flutter | IOS native | Spring Boot",
             style: TextStyle(
               color: kCaptionColor,
               fontSize: 15.0,
@@ -53,7 +53,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             child: Wrap(
               children: [
                 Text(
-                  "With over 7 years of experience",
+                  "With over 6 years of experience",
                   style: TextStyle(
                     color: kCaptionColor,
                     fontSize: 15.0,

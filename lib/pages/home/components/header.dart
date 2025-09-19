@@ -53,7 +53,8 @@ class HeaderRow extends StatelessWidget {
       child: Row(
         children: headerItems
             .map(
-              (item) => item.isButton
+              (item) => 
+              item.isButton
                   ? MouseRegion(
                       cursor: SystemMouseCursors.click,
                       child: Container(
@@ -65,14 +66,14 @@ class HeaderRow extends StatelessWidget {
                             horizontal: 20.0, vertical: 5.0),
                         child: TextButton(
                           onPressed:(){
-                                final anchor = web.HTMLAnchorElement()
-                                ..href = 'Fisha_Resume.pdf'
-                                ..download = 'Fisha_Resume.pdf'
-                                ..style.display = 'none';
+                              //   final anchor = web.HTMLAnchorElement()
+                              //   ..href = 'Fisha_Resume.pdf'
+                              //   ..download = 'Fisha_Resume.pdf'
+                              //   ..style.display = 'none';
 
-                               web.document.body!.append(anchor);
-                               anchor.click();
-                               anchor.remove();
+                              //  web.document.body!.append(anchor);
+                              //  anchor.click();
+                              //  anchor.remove();
                           },
                           child: Text(
                             item.title,
@@ -85,7 +86,8 @@ class HeaderRow extends StatelessWidget {
                         ),
                       ),
                     )
-                  : MouseRegion(
+                  :
+                   MouseRegion(
                       cursor: SystemMouseCursors.click,
                       child: Container(
                         margin: EdgeInsets.only(right: 30.0),
