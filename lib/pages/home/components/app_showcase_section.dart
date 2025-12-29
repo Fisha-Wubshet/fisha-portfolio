@@ -122,16 +122,16 @@ class AppShowcaseSection extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 25.0),
-        Row(
-          children: [
-            screen=='mobile'?
-            _buildMobileButton( app.link):
-            _buildPrimaryButton("EXPLORE MORE", app.link),
+        // Row(
+        //   children: [
+        //     screen=='mobile'?
+        //     _buildMobileButton( app.link):
+        //     _buildPrimaryButton("EXPLORE MORE", app.link),
             
-            // const SizedBox(width: 10),
-            // _buildSecondaryButton("NEXT APP"),
-          ],
-        )
+        //     // const SizedBox(width: 10),
+        //     // _buildSecondaryButton("NEXT APP"),
+        //   ],
+        // )
       ],
     );
   }

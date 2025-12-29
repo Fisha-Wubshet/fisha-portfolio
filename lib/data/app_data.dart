@@ -12,9 +12,9 @@ final List<App> appList = [
   ),
   App(
     title: "Buy2go",
-    subtitle: "IOS & Android qechAPP",
+    subtitle: "IOS & Android APP",
     description:
-        "A large scale B2B e-commerce platform that supplies thousands of shops around Addis Ababa with products from different suppliers. Buy2Go helps businesses to streamline their supply chain and reduce costs.",
+        "A large scale Multi-sided Supply Chain & Distribution Platform that supplies thousands of shops with products from different suppliers. Buy2Go helps businesses to streamline their supply chain and reduce costs.",
     imagePath: "assets/buy2go_mockup.png",
     link:'https://apps.apple.com/us/app/buy2go/id6449532467'
   ),
