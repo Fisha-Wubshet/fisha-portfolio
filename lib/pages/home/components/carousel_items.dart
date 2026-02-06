@@ -16,7 +16,7 @@ List<CarouselItemModel> carouselItems = List.generate(
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(
-            "Senior Mobile Developer",
+            "Software Architect and Full-Stack Developer",
             style: GoogleFonts.oswald(
               color: kPrimaryColor,
               fontWeight: FontWeight.w900,
@@ -27,7 +27,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 18.0,
           ),
           Text(
-            "Fisha\nWubshet",
+            "Fisha Wubshet\nGebregiorgis",
             style: GoogleFonts.oswald(
               color: Colors.white,
               fontSize: 40.0,
@@ -53,7 +53,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             child: Wrap(
               children: [
                 Text(
-                  "With over 6 years of experience",
+                  "With over 7 years of experience, I lead projects from planning to delivery, focusing on scalable architecture and cross-functional collaboration. Dedicated to clean code, performance, and building maintainable, user-centric products.",
                   style: TextStyle(
                     color: kCaptionColor,
                     fontSize: 15.0,
@@ -109,13 +109,13 @@ List<CarouselItemModel> carouselItems = List.generate(
         ],
       ),
     ),
-   image: Container(),
-  //  SizedBox(
-  //     height: 250,
-  //     child: Image.asset(
-  //       "assets/fisho.png",
-  //       fit: BoxFit.contain,
-  //     ),
-  //   ), 
+   image: 
+   SizedBox(
+      height: 300,
+      child: Image.asset(
+        "assets/fisho.png",
+        fit: BoxFit.contain,
+      ),
+    ), 
   ),
 );

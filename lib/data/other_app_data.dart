@@ -1,14 +1,15 @@
 import 'package:web_portfolio/models/apps.dart';
 
 final List<App> otherApplist = [
+   
    App(
-    title: 'Top EVD',
-    subtitle: 'An electronic voucher distribution platform that allows telecom agents to distribute airtime vouchers to their customers',
-    description: '',
-    imagePath: 'assets/EVD_Mockup.png',
-    link:''
+    title: "Qech'Qech",
+    subtitle: "A disposable camera app that allows guests to take photos at events such as weddings, parties, and other gatherings. Qech`Qech helps to capture memories in a fun and unique way.",
+    description:
+        "",
+    imagePath: "assets/qechqech_mockup.png",
+    link:'https://play.google.com/store/apps/details?id=com.signum.qechqech'
   ),
-  
   App(
     title: 'Food Delivery App',
     subtitle: 'User-friendly apps for customers and restaurants, streamlining food delivery.',

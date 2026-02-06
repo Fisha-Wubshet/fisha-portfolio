@@ -4,6 +4,7 @@ final homeKey = GlobalKey();
 final projectKey  = GlobalKey();
 final experienceKey = GlobalKey();
 final skillKey = GlobalKey();
+final educationKey= GlobalKey();
 final contactKey = GlobalKey();
 final hireMeKey = GlobalKey();
 

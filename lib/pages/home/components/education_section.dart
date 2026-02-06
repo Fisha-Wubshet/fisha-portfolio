@@ -6,6 +6,7 @@ import 'package:web_portfolio/utils/screen_helper.dart';
 
 
 class EducationSection extends StatelessWidget {
+  const EducationSection({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Container(

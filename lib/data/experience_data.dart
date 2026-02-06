@@ -3,23 +3,23 @@ import 'package:web_portfolio/models/experience.dart';
 final List<Experience> experienceList = [
   Experience(
     description:
-        "Led and participated in the development and project management of diverse mobile apps, including LMS, digital wallet, restaurant ordering, inventory management, and ticket booking systems. Integrated secure payments, real-time chat, Firebase services, offline capabilities, and Google Maps. Successfully launched multiple apps on the App Store and Google Play with complete ASO and release coordination.",
+        "Led and participated in the development and project management of diverse projects, including LMS, Customer Feedback platform, multi-sided supply chain and distribution system,digital wallet and inventory management. Integrated secure payments, real-time systems, push notifications, offline capabilities. As the co-founder of Signum Technologies, I have pioneered localized solutions in Ethiopia, including the nation’s first automated customer feedback platform and critical e-learning infrastructure during the COVID-19 pandemic. ",
     company: "Signum Technologies PLC",
-    role:'Senior Mobile Developer',
-    period: "09/2021 - Current",
+    role:'Lead Full-Stack Developer',
+    period: "08/2019 - Current",
   ),
   Experience(
     description:
-        "Developed apps for a complex B2B e-commerce and on-demand logistics platform, connecting multiple stakeholders in real time. Applied effective state management, integrated real-time features, offline capabilities, mapping services, and enhanced user experience through interactive visuals and smart scanning functionalities.",
-    company: "Go Tech PLC",
-    role:'Senior Mobile Developer',
-    period: "09/2019 - 08/2021",
+        "Architected a robust backend for a multi-branch Merchandise Management System (MMS), developing secure RESTful APIs with role-based access control while optimizing databases for high-volume operations. Ensured system stability and technical excellence by leading code reviews and implementing comprehensive unit and integration testing to guarantee fault-tolerant performance.",
+    company: "Mr phone GmbH",
+    role:'Senior Software Developer',
+    period: "09/2022 - 12/2023",
   ),
   Experience(
     description:
-        "Participated in developing a secure and user-friendly EVD mobile application, focusing on hierarchical voucher distribution and Bluetooth-based printing. As part of the development team, supported various tasks across the software development lifecycle, contributing to coding, testing, and implementation under the guidance of senior developers..",
-    company: "Signum Technologies PLC",
-    role:'junior Mobile Developer',
+        "Developed a mobile application for a Restaurant Automation Platform with secure payment integration.\nParticipated in the full software development lifecycle (SDLC) in collaboration with senior developers.",
+    company: "Midemi",
+    role:'junior Developer',
     period: "09/2018 - 08/2019",
   ),
   

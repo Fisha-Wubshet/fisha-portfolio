@@ -91,16 +91,17 @@ class Home extends StatelessWidget {
               SizedBox(
                 height: 50.0,
               ), 
+               Frameworks_section(key:skillKey),
+              SizedBox(
+                height: 50.0,
+              ),
               ExperienceSection(key:experienceKey),
-              EducationSection(),
+              EducationSection(key:educationKey),
               SizedBox(
                 height: 50.0,
               ),
-              Frameworks_section(),
-              SizedBox(
-                height: 50.0,
-              ),
-              CvSection(),
+             
+              // CvSection(),
               Footer(key:contactKey),
             ],
           ),
