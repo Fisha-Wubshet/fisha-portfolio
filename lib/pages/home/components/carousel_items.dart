@@ -53,7 +53,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             child: Wrap(
               children: [
                 Text(
-                  "With over 7 years of experience, I lead projects from planning to delivery, focusing on scalable architecture and cross-functional collaboration. Dedicated to clean code, performance, and building maintainable, user-centric products.",
+                  "With over 7 years of experience, I lead and participate in projects from planning through delivery, focusing on scalable architecture and cross-functional collaboration. I am dedicated to clean code, performance, and building maintainable, user-centric products",
                   style: TextStyle(
                     color: kCaptionColor,
                     fontSize: 15.0,

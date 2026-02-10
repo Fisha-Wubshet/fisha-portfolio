@@ -11,7 +11,7 @@ final List<App> appList = [
   ),
   App(
     title: "Eyitahub",
-    subtitle: "IOS & Android APP",
+    subtitle: "Web, IOS & Android APP",
     description:
         "EyitaHub helps businesses effortlessly collect feedback through intuitive surveys and integrations, analyze data with advanced reporting and sentiment analysis, and implement actionable insights to create exceptional customer experiences, fueling sustainable product development and business growth.",
     imagePath: "assets/eyitahub_mockup.png",
@@ -35,7 +35,7 @@ final List<App> appList = [
   ),
   App(
     title: 'Top EVD',
-    subtitle: 'IOS & Android APP',
+    subtitle: 'Web, IOS & Android APP',
     description: 'An electronic voucher distribution platform that allows telecom agents to distribute airtime vouchers to their customers. Top EVD helps to streamline the distribution process and reduce costs. The system is handling tens of thousands of transactions per day.',
     imagePath: 'assets/EVD_Mockup.png',
     link:''

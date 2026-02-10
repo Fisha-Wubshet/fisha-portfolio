@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Fisha Portfolio",
       debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.dark,  
       darkTheme: Theme.of(context).copyWith(
         platform: TargetPlatform.android,
         scaffoldBackgroundColor: kBackgroundColor,
