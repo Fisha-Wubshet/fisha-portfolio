@@ -19,7 +19,7 @@ final List<App> appList = [
   ),
   App(
     title: "Buy2go",
-    subtitle: "IOS & Android APP",
+    subtitle: "IOS, Android, Web Dashbord",
     description:
         "A large scale Multi-sided Supply Chain & Distribution Platform that supplies thousands of shops with products from different suppliers. Buy2Go helps businesses to streamline their supply chain and reduce costs.",
     imagePath: "assets/buy2go_mockup.png",
@@ -27,7 +27,7 @@ final List<App> appList = [
   ),
   App(
     title: "ByMe",
-    subtitle: "IOS & Android APP",
+    subtitle: "IOS, Android, Web Dashbord",
     description:
         "An on-demand delivery and multi-vendor marketplace platform. A comprehensive courier service that enables users to send and receive packages quickly and easily.",
     imagePath: "assets/byme_mockup.png",

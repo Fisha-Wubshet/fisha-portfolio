@@ -39,7 +39,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 10.0,
           ),
           Text(
-            "Flutter | IOS native | Spring Boot",
+            "Flutter |Spring Boot | Vue.js",
             style: TextStyle(
               color: kCaptionColor,
               fontSize: 15.0,
@@ -60,20 +60,6 @@ List<CarouselItemModel> carouselItems = List.generate(
                     height: 1.5,
                   ),
                 ),
-                // GestureDetector(
-                //   onTap: () {},
-                //   child: MouseRegion(
-                //     cursor: SystemMouseCursors.click,
-                //     child: Text(
-                //       " Let's talk.",
-                //       style: TextStyle(
-                //         height: 1.5,
-                //         color: Colors.white,
-                //         fontSize: 15.0,
-                //       ),
-                //     ),
-                //   ),
-                // )
               ],
             ),
           ),
