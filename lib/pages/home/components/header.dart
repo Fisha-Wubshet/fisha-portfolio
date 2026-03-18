@@ -54,39 +54,7 @@ class HeaderRow extends StatelessWidget {
         children: headerItems
             .map(
               (item) => 
-              item.isButton
-                  ? MouseRegion(
-                      cursor: SystemMouseCursors.click,
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: kPrimaryColor,
-                          borderRadius: BorderRadius.circular(8.0),
-                        ),
-                        padding: EdgeInsets.symmetric(
-                            horizontal: 20.0, vertical: 5.0),
-                        child: TextButton(
-                          onPressed:(){
-                                final anchor = web.HTMLAnchorElement()
-                                ..href = 'Fisha_Resume.pdf'
-                                ..download = 'Fisha_Resume.pdf'
-                                ..style.display = 'none';
-
-                               web.document.body!.append(anchor);
-                               anchor.click();
-                               anchor.remove();
-                          },
-                          child: Text(
-                            item.title,
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 13.0,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
-                      ),
-                    )
-                  :
+              
                    MouseRegion(
                       cursor: SystemMouseCursors.click,
                       child: Container(
