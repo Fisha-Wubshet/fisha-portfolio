@@ -16,7 +16,7 @@ List<CarouselItemModel> carouselItems = List.generate(
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(
-            "Software Architect and Full-Stack Developer",
+            "Senior Mobile Developer",
             style: GoogleFonts.oswald(
               color: kPrimaryColor,
               fontWeight: FontWeight.w900,
@@ -39,7 +39,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 10.0,
           ),
           Text(
-            "Flutter |Spring Boot | Vue.js",
+            "Flutter | iOS Native | Firebase",
             style: TextStyle(
               color: kCaptionColor,
               fontSize: 15.0,
@@ -53,7 +53,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             child: Wrap(
               children: [
                 Text(
-                  "With over 7 years of experience, I lead and participate in projects from planning through delivery, focusing on scalable architecture and cross-functional collaboration. I am dedicated to clean code, performance, and building maintainable, user-centric products",
+                  "Senior Mobile Developer with 6+ years of experience designing, developing, and shipping high-performing cross-platform apps with Flutter and native iOS. I specialize in secure payments, real-time features, offline-first architecture, push notifications, geolocation, and third-party API integrations — leading projects from concept to launch on the App Store and Google Play.",
                   style: TextStyle(
                     color: kCaptionColor,
                     fontSize: 15.0,
