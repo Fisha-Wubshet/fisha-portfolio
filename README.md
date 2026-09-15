@@ -1,16 +1,44 @@
-# portfolio
+# 📱 Fisha Wubshet — Flutter Portfolio Application
 
-A new Flutter project.
+A modern, responsive cross-platform portfolio application built with **Flutter** and **Dart**. Designed to showcase software engineering experience, projects, technical skills, and architecture best practices across Web, Mobile, and Desktop platforms.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Key Features & Architecture Highlights
 
-A few resources to get you started if this is your first Flutter project:
+* **State Management:** Clean separation of business logic and presentation layer using predictable state management patterns (e.g., `Bloc` / `Riverpod` / `Provider`), ensuring testability and scalable state propagation across the app.
+* **Responsive Layout:** Adaptive design using Flutter's layout engine (`LayoutBuilder`, flexible grids, and breakpoint constraints) to deliver a seamless user experience from mobile screens to ultra-wide web browsers.
+* **Modular Clean Architecture:** Structured around feature-first / layered architecture (Data, Domain, Presentation) to maintain separation of concerns and high maintainability.
+* **Smooth Animations & Micro-interactions:** Custom transitions, scroll interactions, and implicit animations designed to elevate visual feedback and UI depth.
+* **Theme & UI Customization:** Centralized design system with dark/light mode switching and scalable typography scaling.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack & Dependencies
+
+* **Framework:** [Flutter SDK](https://flutter.dev) (Dart)
+* **State Management:** Flutter BLoC / Riverpod
+* **Routing:** `go_router` / Declarative Navigation
+* **HTTP & API Integration:** `dio` / `http` (for dynamic project fetching or contact handling)
+* **Deployment:** GitHub Pages / Firebase Hosting / Vercel
+
+---
+
+## 📁 Repository Structure
+
+```text
+lib/
+├── core/
+│   ├── constants/       # App colors, styles, dimensions, strings
+│   ├── theme/           # Light & dark theme definitions
+│   └── utils/           # Helper functions, responsive screen utilities
+├── features/
+│   ├── home/            # Hero section, bio, quick overview
+│   ├── experience/      # Work history, timeline, career journey
+│   ├── projects/        # Showcase cards, tags, live links, and GitHub links
+│   ├── skills/          # Tech stack breakdown and skill proficiency grids
+│   └── contact/         # Contact form and social media links
+├── shared/
+│   ├── widgets/         # Reusable buttons, cards, navbar, and footer
+│   └── state/           # Global state providers / BLoC cubits
+└── main.dart            # Application entry point & route setup
