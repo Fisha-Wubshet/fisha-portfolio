@@ -9,5 +9,4 @@ List<HeaderItem> headerItems = [
   HeaderItem(title: "Experience", onTap: () => scrollTo(experienceKey)),
   HeaderItem(title: "Education", onTap: () => scrollTo(educationKey)),
   HeaderItem(title: "Contact", onTap: () => scrollTo(contactKey)),
-  HeaderItem(title: "Download CV", onTap: () => scrollTo(hireMeKey), isButton: true),
 ];
